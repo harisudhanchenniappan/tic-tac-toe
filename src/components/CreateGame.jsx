@@ -19,8 +19,8 @@ const CreateGame = () => {
       {gameId && (
         <p>
           Share this link:{" "}
-          <a href={`http://localhost:5173/game/${gameId}`}>
-            http://localhost:5173/game/{gameId}
+          <a href={`https://tic-tac-toe-1611.netlify.app/game/${gameId}`}>
+          https://tic-tac-toe-1611.netlify.app/game/{gameId}
           </a>
         </p>
       )}
