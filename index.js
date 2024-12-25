@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
-const gameRoutes = require("./gameRoutes");
+const gameRoutes = require("./gameroutes");
 const Game = require("./Schema");
 
 const app = express();
